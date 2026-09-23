@@ -1,0 +1,30 @@
+# Local credentials and Codex integration backups
+.env
+.env.*
+!.env.example
+*.jevbrow.baseline
+*.jevbrow.installed
+
+# Local agent setup and generated browser data
+.agents/
+artifacts/
+
+# Python environments, caches, and build outputs
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Editor and OS files
+.DS_Store
+.idea/
+.vscode/
+*.swp
